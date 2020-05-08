@@ -20,13 +20,20 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Source\MultiThreadRender.cpp" />
+    <ClCompile Include="..\Source\Private\RHI.cpp" />
+    <ClCompile Include="..\Source\Private\RHICommandList.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Shaders\sprite.ps" />
     <None Include="..\Shaders\sprite.vs" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Source\Public\CommonBase.h" />
     <ClInclude Include="..\Source\Public\OpenGLProgram.h" />
+    <ClInclude Include="..\Source\Public\OpenGLRHI.h" />
+    <ClInclude Include="..\Source\Public\RHI.h" />
+    <ClInclude Include="..\Source\Public\RHICommandList.h" />
+    <ClInclude Include="..\Source\Public\Semaphore.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
